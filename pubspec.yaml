@@ -1,0 +1,35 @@
+name: test_store
+description: "Test store mobile app"
+
+publish_to: 'none' 
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.4 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  auto_route: ^9.1.0
+  shared_preferences: ^2.2.2
+  google_fonts: ^6.2.1
+  flutter_riverpod: ^3.0.0-dev.3
+  riverpod_annotation: ^3.0.0-dev.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  auto_route_generator: ^9.0.0
+  riverpod_generator: ^3.0.0-dev.11
+  riverpod_lint: ^3.0.0-dev.4
+  flutter_lints: ^4.0.0
+  build_runner: ^2.4.8
+
+
+flutter:
+
+  uses-material-design: true
+
